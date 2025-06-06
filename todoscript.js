@@ -50,5 +50,5 @@ form.addEventListener('submit', function (evt) {
 
     list.appendChild(task);
     toggleEmptyListMessage();
-    newItemTitle.value = '';
+    input.value = '';
 });
